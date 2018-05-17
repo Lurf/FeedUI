@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeVC.swift
 //  FeedUI
 //
 //  Created by Lurf on 2018/05/04.
@@ -9,7 +9,7 @@
 import UIKit
 import IGListKit
 
-class ViewController: UIViewController, ListAdapterDataSource {
+class HomeVC: UIViewController, ListAdapterDataSource {
     
     let users = [
         User(id: 1, name: "Akasa"),
@@ -28,6 +28,9 @@ class ViewController: UIViewController, ListAdapterDataSource {
     }
     
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
+        
+        
+        
         return SectionController()
     }
     

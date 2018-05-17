@@ -12,20 +12,35 @@ class SectionController: ListSectionController, ListDisplayDelegate {
     
     var user: User?
     
+    override init() {
+        super.init()
+        displayDelegate = self
+    }
+    
     override func numberOfItems() -> Int {
-        return 1
+        return 2
     }
     
     override func sizeForItem(at index: Int) -> CGSize {
-        return CGSize(width: 300.0, height: 300.0)
+        if index == 0 {
+            return CGSize(width: UIScreen.main.bounds.size.width,
+                          height: UIScreen.main.bounds.size.width)
+        }
+        return CGSize(width: UIScreen.main.bounds.size.width, height: 50.0)
     }
     
     override func cellForItem(at index: Int) -> UICollectionViewCell {
-        if let cell = collectionContext!.dequeueReusableCellFromStoryboard(withIdentifier: "imageCell", for: self, at: index) as? ImageCell {
-            cell.label.text = user?.name
-            return cell
+        if index == 0 {
+            if let cell = collectionContext?.dequeueReusableCell(withNibName: ImageCell.className(), bundle: nil, for: self, at: index) {
+                return cell
+            }
         }
-        
+        if index == 1 {
+            if let cell = collectionContext?.dequeueReusableCell(withNibName: LikeButtonCell.className(), bundle: nil, for: self, at: index) {
+                return cell
+            }
+        }
+
         return UICollectionViewCell(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
     }
     
@@ -34,8 +49,12 @@ class SectionController: ListSectionController, ListDisplayDelegate {
     }
     
     override func didSelectItem(at index: Int) {
-        
-        
+        if index == 0 {
+            
+        }
+        if index == 1 {
+            
+        }
     }
     
     func listAdapter(_ listAdapter: ListAdapter, willDisplay sectionController: ListSectionController) {

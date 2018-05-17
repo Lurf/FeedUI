@@ -1,17 +1,19 @@
 //
-//  ImageCell.swift
+//  LikeButtonCell.swift
 //  FeedUI
 //
-//  Created by Lurf on 2018/05/05.
+//  Created by Lurf on 2018/05/17.
 //  Copyright © 2018年 Lurf. All rights reserved.
 //
 
 import UIKit
 
-class ImageCell: UICollectionViewCell {
-    @IBOutlet weak var imageView: UIImageView!
+class LikeButtonCell: UICollectionViewCell {
+
+    @IBOutlet weak var likeButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+
 }

@@ -8,16 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		434734B2DCFC2BF061E61577 /* Pods_FeedUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0576356A3C342008A3C50B76 /* Pods_FeedUIUITests.framework */; };
+		4F150137209DB99200B9E94A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F150136209DB99200B9E94A /* Info.plist */; };
 		4F3CF38E209D9FDF00A81334 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CF38D209D9FDF00A81334 /* SectionController.swift */; };
 		4F3CF390209DA20B00A81334 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CF38F209DA20B00A81334 /* ImageCell.swift */; };
 		4FA10B1A209C614D001D9AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA10B19209C614D001D9AC9 /* AppDelegate.swift */; };
-		4FA10B1C209C614D001D9AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA10B1B209C614D001D9AC9 /* ViewController.swift */; };
+		4FA10B1C209C614D001D9AC9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA10B1B209C614D001D9AC9 /* HomeVC.swift */; };
 		4FA10B1F209C614D001D9AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA10B1D209C614D001D9AC9 /* Main.storyboard */; };
 		4FA10B21209C614F001D9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA10B20209C614F001D9AC9 /* Assets.xcassets */; };
 		4FA10B24209C614F001D9AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA10B22209C614F001D9AC9 /* LaunchScreen.storyboard */; };
 		4FA10B2F209C614F001D9AC9 /* FeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA10B2E209C614F001D9AC9 /* FeedUITests.swift */; };
 		4FA10B3A209C614F001D9AC9 /* FeedUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA10B39209C614F001D9AC9 /* FeedUIUITests.swift */; };
 		4FA10B48209D7885001D9AC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA10B47209D7885001D9AC9 /* User.swift */; };
+		4FFBC3BC20ADB68A00F21EE3 /* LikeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBC3BA20ADB68A00F21EE3 /* LikeButtonCell.swift */; };
+		4FFBC3BD20ADB68A00F21EE3 /* LikeButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBC3BB20ADB68A00F21EE3 /* LikeButtonCell.xib */; };
+		4FFBC3BF20ADB70F00F21EE3 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBC3BE20ADB70F00F21EE3 /* ImageCell.xib */; };
+		4FFBC3C220ADB7B100F21EE3 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBC3C120ADB7B100F21EE3 /* NSObject+ClassName.swift */; };
 		7873E47AC98772251B4067F0 /* Pods_FeedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FDB702F7DB4C2262B504DB /* Pods_FeedUI.framework */; };
 		B1F034F09D3A1740530C08A8 /* Pods_FeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01BD53417CB2C24EA0AEA3F /* Pods_FeedUITests.framework */; };
 /* End PBXBuildFile section */
@@ -43,15 +48,15 @@
 		0576356A3C342008A3C50B76 /* Pods_FeedUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B2801E5BF52BFE5250F513 /* Pods-FeedUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeedUIUITests/Pods-FeedUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4B87165EDA01F14BA77FB4AE /* Pods-FeedUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedUI/Pods-FeedUI.debug.xcconfig"; sourceTree = "<group>"; };
+		4F150136209DB99200B9E94A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F3CF38D209D9FDF00A81334 /* SectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
 		4F3CF38F209DA20B00A81334 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		4FA10B16209C614D001D9AC9 /* FeedUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA10B19209C614D001D9AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FA10B1B209C614D001D9AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA10B1B209C614D001D9AC9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4FA10B1E209C614D001D9AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA10B20209C614F001D9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA10B23209C614F001D9AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4FA10B25209C614F001D9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FA10B2A209C614F001D9AC9 /* FeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA10B2E209C614F001D9AC9 /* FeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUITests.swift; sourceTree = "<group>"; };
 		4FA10B30209C614F001D9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +64,10 @@
 		4FA10B39209C614F001D9AC9 /* FeedUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIUITests.swift; sourceTree = "<group>"; };
 		4FA10B3B209C6150001D9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FA10B47209D7885001D9AC9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4FFBC3BA20ADB68A00F21EE3 /* LikeButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonCell.swift; sourceTree = "<group>"; };
+		4FFBC3BB20ADB68A00F21EE3 /* LikeButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeButtonCell.xib; sourceTree = "<group>"; };
+		4FFBC3BE20ADB70F00F21EE3 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		4FFBC3C120ADB7B100F21EE3 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		64FDB702F7DB4C2262B504DB /* Pods_FeedUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D5E94AD5F7A29C211F4AF8 /* Pods-FeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedUITests/Pods-FeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A990633E1A33C76501234EF0 /* Pods-FeedUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedUIUITests/Pods-FeedUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,26 +107,31 @@
 		4F150133209DB50700B9E94A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FA10B1D209C614D001D9AC9 /* Main.storyboard */,
 				4FA10B20209C614F001D9AC9 /* Assets.xcassets */,
+				4F150136209DB99200B9E94A /* Info.plist */,
 				4FA10B22209C614F001D9AC9 /* LaunchScreen.storyboard */,
-				4FA10B25209C614F001D9AC9 /* Info.plist */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
-		4F150134209DB51E00B9E94A /* Model */ = {
+		4F150134209DB51E00B9E94A /* Backend */ = {
 			isa = PBXGroup;
 			children = (
 				4FA10B47209D7885001D9AC9 /* User.swift */,
 			);
-			path = Model;
+			path = Backend;
 			sourceTree = "<group>";
 		};
 		4F150135209DB52900B9E94A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4FA10B1D209C614D001D9AC9 /* Main.storyboard */,
+				4FA10B1B209C614D001D9AC9 /* HomeVC.swift */,
+				4F3CF38D209D9FDF00A81334 /* SectionController.swift */,
 				4F3CF38F209DA20B00A81334 /* ImageCell.swift */,
+				4FFBC3BE20ADB70F00F21EE3 /* ImageCell.xib */,
+				4FFBC3BA20ADB68A00F21EE3 /* LikeButtonCell.swift */,
+				4FFBC3BB20ADB68A00F21EE3 /* LikeButtonCell.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -147,12 +161,11 @@
 		4FA10B18209C614D001D9AC9 /* FeedUI */ = {
 			isa = PBXGroup;
 			children = (
+				4FFBC3B920ADB5AD00F21EE3 /* AppDelegate */,
 				4F150135209DB52900B9E94A /* UI */,
-				4F150134209DB51E00B9E94A /* Model */,
+				4FFBC3C020ADB78F00F21EE3 /* Utilities */,
+				4F150134209DB51E00B9E94A /* Backend */,
 				4F150133209DB50700B9E94A /* Support Files */,
-				4FA10B19209C614D001D9AC9 /* AppDelegate.swift */,
-				4FA10B1B209C614D001D9AC9 /* ViewController.swift */,
-				4F3CF38D209D9FDF00A81334 /* SectionController.swift */,
 			);
 			path = FeedUI;
 			sourceTree = "<group>";
@@ -173,6 +186,22 @@
 				4FA10B3B209C6150001D9AC9 /* Info.plist */,
 			);
 			path = FeedUIUITests;
+			sourceTree = "<group>";
+		};
+		4FFBC3B920ADB5AD00F21EE3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4FA10B19209C614D001D9AC9 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4FFBC3C020ADB78F00F21EE3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBC3C120ADB7B100F21EE3 /* NSObject+ClassName.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		87009AE57140181D0684101A /* Frameworks */ = {
@@ -306,8 +335,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F150137209DB99200B9E94A /* Info.plist in Resources */,
 				4FA10B24209C614F001D9AC9 /* LaunchScreen.storyboard in Resources */,
 				4FA10B21209C614F001D9AC9 /* Assets.xcassets in Resources */,
+				4FFBC3BF20ADB70F00F21EE3 /* ImageCell.xib in Resources */,
+				4FFBC3BD20ADB68A00F21EE3 /* LikeButtonCell.xib in Resources */,
 				4FA10B1F209C614D001D9AC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,11 +440,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA10B1C209C614D001D9AC9 /* ViewController.swift in Sources */,
+				4FA10B1C209C614D001D9AC9 /* HomeVC.swift in Sources */,
 				4FA10B1A209C614D001D9AC9 /* AppDelegate.swift in Sources */,
+				4FFBC3BC20ADB68A00F21EE3 /* LikeButtonCell.swift in Sources */,
 				4FA10B48209D7885001D9AC9 /* User.swift in Sources */,
 				4F3CF38E209D9FDF00A81334 /* SectionController.swift in Sources */,
 				4F3CF390209DA20B00A81334 /* ImageCell.swift in Sources */,
+				4FFBC3C220ADB7B100F21EE3 /* NSObject+ClassName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +622,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RF494TFV4D;
-				INFOPLIST_FILE = FeedUI/Info.plist;
+				INFOPLIST_FILE = "FeedUI/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,7 +641,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RF494TFV4D;
-				INFOPLIST_FILE = FeedUI/Info.plist;
+				INFOPLIST_FILE = "FeedUI/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
